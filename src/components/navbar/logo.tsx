@@ -1,8 +1,10 @@
+import { NavLink } from "react-router-dom";
+
 const Logo = () => {
   return (
-    <a className="text-2xl text-cyan-600 font-black" href="">
+    <NavLink className="text-2xl text-cyan-600 font-black" to="/">
       TheDarkArtist
-    </a>
+    </NavLink>
   );
 };
 
